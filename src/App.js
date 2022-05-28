@@ -3,14 +3,16 @@ import './App.css';
 import { Button } from './Components/Button/button';
 import {useContext} from "react" ; 
 import { ThemeContext } from './context/ThemeContextProvider';
+import { Navbar } from './Components/Navbar/navbar';
 function App() { 
    const {theme, toggleTheme}  = useContext(ThemeContext)
   return ( 
      
-    <div className="App">
+    <div className="App"> 
+    <Navbar/>
   <Button text = "THEME"/> 
   <br/>
-  <button  onClick = {toggleTheme}>TOGGLE</button>
+   
     </div>
   );
 }

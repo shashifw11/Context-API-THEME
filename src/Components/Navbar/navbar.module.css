@@ -1,0 +1,20 @@
+.container{
+    width : 100% ; 
+    padding : 10px ; 
+    border : 1px solid red ; 
+    font-size : 18px ; 
+} 
+.btn{ 
+    
+   padding : 20px ; 
+   
+}
+.containerLight{
+    background-color: lightgray;
+    color : black ; 
+}
+
+.containerDark{
+    background-color: black ;
+    color : white 
+}
